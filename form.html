@@ -43,10 +43,12 @@
         <form action="https://ubermelon-order-form.herokuapp.com/process" method="GET">
             <label for="field-firstname">First Name:</label>
             <input type="text" name="firstname" id="field-firstname">
+            
             <br>
             
-            <label for="field-firstname">Last Name:</label>
+            <label for="field-lastname">Last Name:</label>
             <input type="text" name="lastname" id="field-lastname">
+            
             <br>
             
             <label for="field-melon-type">Melon Type:</label>
@@ -58,24 +60,32 @@
                 <option value="Canary" id="Canary">Canary</option>    
             </select>
             <br>
+            
             <label for="field-melon-quantity">Quantity:</label>
             <input type="text" name="quantity" id="field-melon-quantity">
+            
             <br>
+            
             <label for="field-delivery-time">Time:</label>
             <input type="radio" name="ampm" value="am" id="am">AM
             <input type="radio" name="ampm" value="pm" id="pm">PM
             <input type="radio" name="ampm" value="wat" id="wat">wat
+            
             <br>
+
             <label for="field-returning-customer">Returning Customer:</label>
             <input type="radio" name="returning-customer" value="yes" id="yes">Yes
             <input type="radio" name="returning-customer" value="no" id="no">No
+            
             <br>
+            
             <label for="field-stats">Stats:</label>
             <input type="checkbox" name="animal" value="dog" id="dog">Dog
             <input type="checkbox" name="animal" value="cat" id="cat">Cat
             <input type="checkbox" name="animal" value="Hedgehog" id="Hedgehog">Hedgehog
             <input type="checkbox" name="animal" value="Balloonicorn" id="Balloonicorn">Balloonicorn
             <input type="checkbox" name="animal" value="yak" id="yak">Yak
+            
             <br>
             
             <input for="submit-button" type="submit">
